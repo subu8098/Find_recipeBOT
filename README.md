@@ -75,8 +75,8 @@ Got ideas or improvements? Feel free to open an issue or submit a pull request!
 This project is licensed under the MIT License.
 
 📩 Contact
-💡 Developer: [Your Name]
-📧 Email: your.email@example.com
-🔗 GitHub: GitHub Repo
+💡 Developer: Subu
+📧 Email: subuvarathan8098@gmail.com
+
 
 🌟 If you like this project, don't forget to ⭐ the repo! 🌟
