@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, CallbackContext
 TOKEN = r"YOUR_TOKEN"
 
 async def start(update: Update, context: CallbackContext) -> None:
-    await update.message.reply_text("Ethathu sollu da pundaaa 😊")
+    await update.message.reply_text("HAi,THIS GREETINGS GIVEN BY SUBU 😊")
 
 def main():
     app = Application.builder().token(TOKEN).build()
