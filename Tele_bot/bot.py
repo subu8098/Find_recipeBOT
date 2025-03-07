@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 
-TOKEN = r"7690319759:AAG1WxuA03YRjjYbPbQWwHr2Wb4ZTqDcusY"
+TOKEN = r"YOUR_TOKEN"
 
 async def start(update: Update, context: CallbackContext) -> None:
     await update.message.reply_text("Ethathu sollu da pundaaa 😊")
