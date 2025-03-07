@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import requests
 
 # API Configuration
-RECIPE_API_KEY = r"3bd6850992cb4c44a00763d987c6ba3b"
+RECIPE_API_KEY = r"YOUR_KEY"
 FIND_BY_INGREDIENTS_URL = "https://api.spoonacular.com/recipes/findByIngredients"
 RECIPE_DETAILS_URL = "https://api.spoonacular.com/recipes/{id}/information"
 
@@ -91,7 +91,7 @@ async def suggest_recipe(update: Update, context: CallbackContext):
 
 # Main function to start the bot
 def main():
-    TOKEN = r"7690319759:AAG1WxuA03YRjjYbPbQWwHr2Wb4ZTqDcusY"
+    TOKEN = r"YOUR_TOKEN"
 
     print("Starting Telegram bot...")
 
